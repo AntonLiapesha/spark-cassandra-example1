@@ -8,6 +8,7 @@ libraryDependencies ++= Seq(
 //  "org.apache.spark" %% "spark-core_2.11" % "1.6.1" % "provided",
   "org.apache.spark" % "spark-core_2.11" % "1.6.1" % "provided",
   "org.apache.spark" %% "spark-sql" % "1.6.0",
-  "com.datastax.spark" %% "spark-cassandra-connector" % "1.6.0-M1"
+  "com.datastax.spark" %% "spark-cassandra-connector" % "1.6.0-M1",
+  "com.databricks" % "spark-csv_2.11" % "1.4.0"
 )
     
